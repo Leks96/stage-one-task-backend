@@ -10,7 +10,7 @@ app.get('/api', (req, res) => {
     //get current day and utc time
 
     const today = new Date().toLocaleDateString(('en-US'), {weekday: 'long'});
-    const utcDate = new Date().toISOString();
+    const utcDate = new Date().toISOString().slice(0, -5)+'Z';
 
     //the response object
 
