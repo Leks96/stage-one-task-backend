@@ -20,7 +20,7 @@ app.get('/api', (req, res) => {
         utc_time: utcDate,
         track,
         github_file_url: '',
-        github_repo_url: '',
+        github_repo_url: 'https://github.com/Leks96/stage-one-task-backend',
         status_code: 200
     }
 
